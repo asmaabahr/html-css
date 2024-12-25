@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>ONLINE STORE</title>
+    </head>
+    <body>
+        <table border="2px">
+            <caption>Our products</caption>
+            <thead>
+                <tr>
+                    <th>name</th>
+                    <th>type</th>
+                    <th>price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>iphone14</td>
+                    <td>phone</td>
+                    <td>20000$</td>
+                </tr>
+                <tr>
+                    <td>sofa</td>
+                    <td>ferneture</td>
+                    <td>25000$</td>
+                </tr>
+                <tr>
+                    <td>macbook</td>
+                    <td>computer</td>
+                    <td>30000$</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">total:</td>
+                    <td>75000$</td>
+                </tr>
+            </tfoot>
+        </table>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, aspernatur illo! Libero vitae quo optio modi quae <span style="color: teal;">laboriosam quidem explicabo </span>totam numquam. Tempore mollitia earum odit assumenda quia quo numquam!</p>
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Aliquid laudantium pariatur culpa incidunt fugit corrupti vitae sapiente dolor doloribus,<br/> vero sunt inventore eveniet blanditiis! <hr>Consequuntur sit soluta enim aut libero.
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="horrior">
+        <div class="book">
+            <h3>Book title</h3>
+            <p>book description </p>
+            <img src="download.jpeg" alt="book">
+        </div>
+        <div class="book">
+            <h3>Book title</h3>
+            <p>book description </p>
+            <img src="download.jpeg" alt="book">
+        </div>
+        <div class="book">
+            <h3>Book title</h3>
+            <p>book description </p>
+            <img src="download.jpeg" alt="book">
+        </div>
+        </div>
+        <hr/>
+        <div class="legaul">
+        <div>
+            <h3>Book title</h3>
+            <p>book description </p>
+            <img src="download.jpeg" alt="book">
+        </div>
+        <div class="book">
+            <h3>Book title</h3>
+            <p>book description </p>
+            <img src="download.jpeg" alt="book">
+        </div>
+        <div class="book">
+            <h3>Book title</h3>
+            <p>book description </p>
+            <img src="download.jpeg" alt="book">
+        </div>
+        </div>
+        <hr>
+        <div class="novel">
+        <div>
+            <h3>Book title</h3>
+            <p>book description </p>
+            <img src="download.jpeg" alt="book">
+        </div>
+        <div class="book">
+            <h3>Book title</h3>
+            <p>book description </p>
+            <img src="download.jpeg" alt="book">
+        </div>
+        <div class="book">
+            <h3>Book title</h3>
+            <p>book description </p>
+            <img src="download.jpeg" alt="book">
+        </div>
+        </div>
+        <hr>
+
+
+        <!-- semantic elements -->
+         <header>head of website</header>
+         <nav>navigation bar</nav>
+         <section>
+            section
+            <section>
+                <article></article>
+            </section>
+         </section>
+         <footer>end of webpage</footer>
+
+
+         <hr>
+
+         <audio controls autoplay loop muted>
+            <source src="blabla.mp3" type="audio/mpeg">
+            <!-- <source src="blabla.ogg" type="audio/ogg">
+            <source src="blabla.wav" type="audio/wav"> -->
+            your browser doesn't support audio tags 
+         </audio>
+
+         <video controls width="600" height="400" autoplay loop muted poster="download.jpeg">
+            <source src="blabla.mp4" type="video/mp4">
+            your browser doesn't support video tags 
+            <!-- translation and captions... -->
+            <track src="myfile_en.vtt" kind="subtitles" srclang="en" label="English">
+            <track src="myfile_ar.vtt" kind="subtitles" srclang="ar" label="Arabic">
+            <track src="myfile_ar.vtt" kind="subtitles" srclang="" label="Arabic">
+         </video>
+
+
+         <form action="" method="post" target="_blank" novalidate>
+            <div>    
+                <label>Name</label>
+                <input type="text" required placeholder="enter your name" name="user" readonly >
+            </div> 
+            
+            <br>
+
+            <div>    
+                <label>Subject</label>
+                <input type="text" required placeholder="enter subject" name="subject" autofocus>
+            </div> 
+            
+            <br>
+
+            <div>
+                <label>Email</label>
+                <input type="email" required placeholder="example@blabla.com" value="asmaa@gmail.sa" name="mail" disabled>
+            </div>
+
+            <br>
+
+            <div>
+                <label>Password</label>
+                <input 
+                type="password"
+                 required 
+                 placeholder="enter complex Password" 
+                 name="password" 
+                 minlength="8" 
+                 maxlength="12">
+            </div>
+
+            <br>
+
+            <div>
+                <input type="hidden"  name="id" value="kjkjkjkjkjkjkjkj">
+            </div>
+
+            <br>
+
+            <div>
+                <label>Color</label>
+                <input type="color" name="color">
+            </div>
+
+            <br>
+
+            <div>
+                <label>Range</label>
+                <input type="range"  name="range" min="10" max="100" step="10" value="0">
+            </div>
+
+            <br>
+
+            <div>
+                <label>Number</label>
+                <input type="number" name="number" min="0" max="90" step="5">
+            </div>
+
+            <br>
+
+            <div>
+                <input id="win1" type="radio" name="os" value="windows" checked>
+                <label for="win1">windows</label>
+            </div>
+
+            <br>
+
+            <div>
+                <input id="ln" type="radio" name="os" value="lunix">
+                <label for="ln">lunix</label>
+            </div>
+
+            <br>
+
+            <div>
+                <input id="mc" type="radio" name="os" value="mac">
+                <label for="mc">mac</label>
+            </div>
+
+            <hr>
+
+            <div>
+                <input id="win" type="checkbox" name="os" value="windows" checked>
+                <label for="win">windows</label>
+            </div>
+
+            <br>
+
+            <div>
+                <input id="lunix" type="checkbox" name="os" value="lunix">
+                <label for="lunix">lunix</label>
+            </div>
+
+            <br>
+
+            <div>
+                <input id="mac" type="checkbox" name="os" value="mac">
+                <label for="mac">mac</label>
+            </div>
+
+            <hr/>
+
+            <div>
+                <label for="day">day</label>
+                <select id="day" name="day" multiple>
+                    <optgroup label="week days">
+                        <option value="sun">sunday</option>
+                        <option value="mon">monday</option>
+                        <option value="tus">tuseday</option>
+                        <option value="wed">wednesday</option>
+                    </optgroup>    
+                    <optgroup label="weekend">
+                        <option value="fri">friday</option>
+                        <option value="sat">saterday</option>
+                    </optgroup>    
+                </select>                
+            </div>
+
+            <br>
+            <hr/>
+
+            <div>
+                <label for="file">file</label>
+                <input type="file" id="file">
+            </div>
+
+            <br>
+            <hr/>
+
+            <div>
+                <label for="file">search</label>
+                <input type="search" id="search">
+            </div>
+
+            <br>
+            <hr/>
+
+            <div>
+                <label for="URL">URL</label>
+                <input type="url" id="URL">
+            </div>
+
+            <br>
+            <hr/>
+
+            <div>
+                <label for="Date">Date</label>
+                <input type="date" id="Date">
+            </div>
+
+            <br>
+            <hr/>
+
+            <div>
+                <label for="month">month</label>
+                <input type="month" id="month">
+            </div>
+            <br>
+            <hr/>
+
+            <div>
+                <label for="time">time</label>
+                <input type="time" id="time">
+            </div>
+
+
+            <br>
+            <hr>
+
+            <textarea name="txt" id="txt" cols="40" rows="10" placeholder="enter text"></textarea>
+
+            <br>
+            <hr>
+
+            <!-- it allow search on options but select doesn't allow search -->
+            <div>
+                <input list="prog" name="programming">
+
+                <datalist id="prog">
+                    <option value="python">
+                    <option value="php">
+                    <option value="c++">
+                    <option value="c">
+                    <option value="c#">
+                    <option value="java">
+                </datalist>
+            </div>
+            
+
+
+            <br>
+            <hr>
+
+           
+
+
+            <input type="reset">
+            <input type="submit" value="send">
+         </form>
+
+
+        <br>
+        <hr>
+
+         <q>some wise words</q>
+         <blockquote>some wise words</blockquote>
+
+         <br>
+        <hr>
+
+         <button>go</button>
+
+         <br>
+        <hr>
+
+        <p>Lorem ipsum,<wbr> dolor sit amet consectetur adipisicing elit.<wbr> Voluptatum eligendi ullam facilis tenetur iste!<wbr> Earum libero blanditiis mollitia laborum quisquam repellendus iusto,<wbr> consequatur maiores,<wbr> numquam adipisci, <wbr>velit pariatur laudantium cumque?</p>
+
+        <br>
+        <hr>
+
+        <p>student <bdi>احمد</bdi>:20</p>
+
+        <br>
+        <hr>
+
+        <pre>
+            <code>
+                #include <iostream>
+
+                    int main()
+                    {
+                        std::cout&lt;&lt;"Hello World";
+                    
+                        return 0;
+                    }
+            </code>
+        </pre>
+
+        <br>
+        <hr>
+        
+        <iframe src="https://elzero.org/category/assignments/html-assignments/" frameborder="0" height="100" width="200"></iframe>
+    </body>
+</html>
